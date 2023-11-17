@@ -16,7 +16,7 @@ def find_pokemon_with_moves(directory, moves_to_check):
     return pokemon_with_moves
 
 if __name__ == "__main__":
-    folder_path = "C:/Program Files/PokeMMO/dump/resources/dump/info"  # Replace this with the path to your folder
+    folder_path = "pokemons/"  # Replace this with the path to your folder
 
     moves_input = input("What moves the poke should have (comma-separated): ")
     moves_to_check = [move.strip() for move in moves_input.split(",")]
